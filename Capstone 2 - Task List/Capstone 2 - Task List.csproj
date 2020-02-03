@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Capstone_2___Task_List</RootNamespace>
+    <StartupObject>Capstone_2___Task_List.Program</StartupObject>
+  </PropertyGroup>
+
+</Project>
