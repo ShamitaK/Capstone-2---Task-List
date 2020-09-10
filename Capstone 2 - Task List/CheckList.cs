@@ -6,15 +6,19 @@ namespace Capstone_2___Task_List
 {
     class CheckList
     {
-        public const string numberChoice = "\nWhat would you like to do? Please Enter a number: "; //allows the user to only pick numbers
+        public const string numberChoice = "\nPlease Enter a number: "; //allows the user to only pick numbers
         public const string addTask = "ADD TASK";
+
         //fields
         private string teamMemberName;
         private string description;
         private DateTime dueDate;
         private bool completion;
 
-        public string TeamMemberName
+        //properties
+
+        
+        public string MemberName
         {
             get { return teamMemberName; }
             set { teamMemberName = value; }
@@ -43,7 +47,7 @@ namespace Capstone_2___Task_List
 
         }
 
-        public CheckList(string _teamMemberName, string _description, DateTime _dueDate) //took out bool completion because creating a seperate method. 
+        public CheckList(string _teamMemberName, string _description, DateTime _dueDate) 
         {
             teamMemberName = _teamMemberName;
             description = _description;
